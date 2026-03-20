@@ -18,12 +18,14 @@ int main(int argc, char* argv[])
             scanf_s("%d", &broj);
             if (rank < size - 1) {
                 printf("Proces 0 salje: %d\n", broj);
+                fflush(stdout);
                 MPI_Send(&broj, 1, MPI_INT, rank + 1, 19, MPI_COMM_WORLD);
             }
         }
         else {
             MPI_Recv(&broj, 1, MPI_INT, rank - 1, 19, MPI_COMM_WORLD, &status);
             printf("Proces %d primio: %d\n", rank, broj);
+            fflush(stdout);
             if (rank < size - 1) {
                 MPI_Send(&broj, 1, MPI_INT, rank + 1, 19, MPI_COMM_WORLD);
             }
