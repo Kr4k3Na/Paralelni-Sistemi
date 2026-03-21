@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aleksa\\OneDrive\\Desktop\\FAKULTET\\GODINA 3\\\u0421\u0435\u043C\u0435\u0441\u0442\u0430\u0440 6\\Paralelni sistemi\\Paralelni-Sistemi\\Zadaci\\03 ptp komunikacija\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{404DE2C5-BE61-4E28-B39A-93C446F6D70E}|03 ptp komunikacija\\03 ptp komunikacija.vcxproj|C:\\Users\\Aleksa\\OneDrive\\Desktop\\FAKULTET\\GODINA 3\\\u0421\u0435\u043C\u0435\u0441\u0442\u0430\u0440 6\\Paralelni sistemi\\Paralelni-Sistemi\\Zadaci\\03 ptp komunikacija\\03 ptp komunikacija\\03 ptp komunikacija.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{404DE2C5-BE61-4E28-B39A-93C446F6D70E}|03 ptp komunikacija\\03 ptp komunikacija.vcxproj|solutionrelative:03 ptp komunikacija\\03 ptp komunikacija.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "03 ptp komunikacija.cpp",
+              "DocumentMoniker": "C:\\Users\\Aleksa\\OneDrive\\Desktop\\FAKULTET\\GODINA 3\\\u0421\u0435\u043C\u0435\u0441\u0442\u0430\u0440 6\\Paralelni sistemi\\Paralelni-Sistemi\\Zadaci\\03 ptp komunikacija\\03 ptp komunikacija\\03 ptp komunikacija.cpp",
+              "RelativeDocumentMoniker": "03 ptp komunikacija\\03 ptp komunikacija.cpp",
+              "ToolTip": "C:\\Users\\Aleksa\\OneDrive\\Desktop\\FAKULTET\\GODINA 3\\\u0421\u0435\u043C\u0435\u0441\u0442\u0430\u0440 6\\Paralelni sistemi\\Paralelni-Sistemi\\Zadaci\\03 ptp komunikacija\\03 ptp komunikacija\\03 ptp komunikacija.cpp",
+              "RelativeToolTip": "03 ptp komunikacija\\03 ptp komunikacija.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-21T15:28:57.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
