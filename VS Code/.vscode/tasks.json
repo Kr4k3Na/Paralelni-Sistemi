@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build MPI",
+      "type": "shell",
+      "command": "cl",
+      "args": [
+        "/I", "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include",
+        "main.c",
+        "/link",
+        "/LIBPATH:C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64",
+        "msmpi.lib"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
