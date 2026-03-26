@@ -1,0 +1,14 @@
+Uputstvo za kompajliranje.
+
+Struktura fajlova:
+Ako zelite da zapocnete novi zadatak, dodajte novi folder u root-u sa proizvoljnim imenom.
+Novo kreirani folder treba da poseduje fajl main.c
+(treba da moze i proizvoljno ime ali jos nije dokazano kroz test)
+
+1. Korak: Otvorite main.c
+2. Korak: Crtl + Shift + B da kompajlirate fajl
+
+Ovaj setup kreira .exe i .obj fajlove u vasem folderu.
+Za testiranje programa otvorite novi terminal u vasem folderu i ukucajte sledecu komandu:
+mpiexec -n <broj_procesa> "main.exe"
+

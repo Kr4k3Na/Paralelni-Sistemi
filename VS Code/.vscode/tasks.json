@@ -1,21 +1,55 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "build MPI",
-      "type": "shell",
-      "command": "cl",
-      "args": [
-        "/I", "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include",
-        "main.c",
-        "/link",
-        "/LIBPATH:C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64",
-        "msmpi.lib"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
-    }
-  ]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Current MPI File",
+            "type": "shell",
+            "command": "${workspaceFolder}/build_current.bat",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$msCompile"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "Run Current MPI Program",
+            "type": "shell",
+            "command": "${workspaceFolder}/run_current.bat",
+            "args": [
+                "${fileDirname}",
+                "${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "dependsOn": ["Build Current MPI File"],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Clean Current Folder",
+            "type": "shell",
+            "command": "${workspaceFolder}/clean_current.bat",
+            "args": [
+                "${fileDirname}"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
 }
